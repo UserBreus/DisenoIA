@@ -1,0 +1,19 @@
+{
+  "name": "disenoia",
+  "private": true,
+  "version": "0.1.0",
+  "description": "DiseñoIA: extractor de diseños para impresión, 100% en el navegador.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "codex": "node bridge/codex-bridge.mjs",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-singlefile": "^2.2.0"
+  }
+}

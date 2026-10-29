@@ -21,7 +21,7 @@ Además incluye creador de diseños, generador de imágenes, mockup 3D, fondo m�
 **Pasos**
 
 ```bash
-git clone https://github.com/<usuario>/DisenoIA.git
+git clone https://github.com/UserBreus/DisenoIA.git
 ```
 ```bash
 cd DisenoIA
